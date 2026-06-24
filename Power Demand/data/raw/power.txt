@@ -1,0 +1,58 @@
+
+
+---
+
+**Title**: Delhi Peak Power Demand with Weather Conditions
+
+**Dataset Overview**:  
+This dataset contains historical records of peak electricity demand (in MW) in Delhi, India, along with corresponding weather data. It spans daily observations and provides detailed insights into how weather conditions such as temperature, humidity, wind speed, precipitation, and other factors impact electricity demand in the city.
+
+**Purpose**:  
+The dataset is designed for modeling the relationship between peak power demand and weather conditions. Researchers, data scientists, and energy analysts can use this dataset to build predictive models to understand and forecast electricity demand based on weather patterns.
+
+**Columns**:
+1. **DATE**: The date of the observation.
+2. **POWER_DEMAND**: Peak electricity demand (in MW) for that day in Delhi.
+3. **name**: Location identifier (Delhi, India).
+4. **datetime**: Timestamp of weather data corresponding to each date.
+5. **tempmax**: Maximum temperature (°C) of the day.
+6. **tempmin**: Minimum temperature (°C) of the day.
+7. **temp**: Average temperature (°C) of the day.
+8. **feelslikemax**: Feels-like maximum temperature (°C) of the day.
+9. **feelslikemin**: Feels-like minimum temperature (°C) of the day.
+10. **feelslike**: Average feels-like temperature (°C) of the day.
+11. **dew**: Dew point (°C) of the day.
+12. **humidity**: Average humidity (%) of the day.
+13. **precip**: Total precipitation (mm) of the day.
+14. **precipprob**: Probability of precipitation (%).
+15. **precipcover**: Precipitation coverage (%) for the day.
+16. **preciptype**: Type of precipitation (e.g., rain).
+17. **snow**: Snowfall (mm).
+18. **snowdepth**: Snow depth (cm).
+19. **windgust**: Maximum wind gust (km/h) for the day.
+20. **windspeed**: Average wind speed (km/h) for the day.
+21. **winddir**: Wind direction (degrees).
+22. **sealevelpressure**: Sea-level atmospheric pressure (hPa).
+23. **cloudcover**: Cloud coverage (%) for the day.
+24. **visibility**: Visibility (km).
+25. **solarradiation**: Solar radiation (W/m²).
+26. **solarenergy**: Solar energy (MJ/m²).
+27. **uvindex**: UV index for the day.
+28. **severerisk**: Severe weather risk (scale 0-10).
+29. **sunrise**: Time of sunrise.
+30. **sunset**: Time of sunset.
+31. **moonphase**: Moon phase as a decimal fraction (0 = new moon, 1 = full moon).
+32. **conditions**: General weather conditions (e.g., clear, cloudy, rainy).
+33. **description**: Detailed description of the weather for the day.
+34. **icon**: Icon representing the weather conditions.
+35. **stations**: Weather station identifiers.
+
+**Applications**:  
+This dataset can be used for:
+- Time series analysis of power demand.
+- Building predictive models for electricity demand based on weather conditions.
+- Energy demand forecasting and optimization.
+- Analysis of the impact of extreme weather on electricity consumption.
+
+---
+
